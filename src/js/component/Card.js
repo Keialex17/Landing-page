@@ -2,7 +2,7 @@ import React from "react";
 
 const Card=() =>{
     return(
-        <div>
+        <div className="col-12 col-md-4 col-3 col-xl-3">
 
 <div className="card">
   <img src="https://picsum.photos/seed/picsum/200/300" className="card-img-top" alt="..."/>
@@ -16,8 +16,7 @@ const Card=() =>{
     <li className="list-group-item">A third item</li>
   </ul>
   <div className="card-body">
-    <a href="#" className="card-link">Card link</a>
-    <a href="#" className="card-link">Another link</a>
+    <button type="button" className="btn btn-primary">Call to action</button>
   </div>
 </div>  
         
